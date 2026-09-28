@@ -93,75 +93,10 @@ Provides an interactive view of the transaction dataset.
 - Git
 - GitHub
 
-## 📁 Project Structure
 
-```text
-banking-fraud-detection/
-│
-├── app.py
-├── banking.py
-├── banking_transactions.csv
-├── requirements.txt
-│
-├── models/
-│   └── fraud_detection_model.pkl
-│
-└── outputs/
-    ├── plots/
-    └── transaction_risk_scores.csv
-📊 Dashboard
-
-The Streamlit dashboard contains:
-
-🏠 Dashboard
-💳 Transaction Analysis
-🚨 Fraud Analysis
-⚠️ Risk Analysis
-📋 Dataset Preview
-🛠️ Technologies
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-Joblib
-Streamlit
-Git & GitHub
-📁 Project Structure
-banking-fraud-detection/
-│
-├── app.py
-├── banking.py
-├── banking_transactions.csv
-├── requirements.txt
-│
-├── models/
-│   └── fraud_detection_model.pkl
-│
-└── outputs/
-    └── transaction_risk_scores.csv
-🌐 Deployment
-
-The application is deployed using Streamlit Community Cloud.
-
-🔗 Live Banking Fraud Detection Dashboard
-
-🔮 Future Scope
-Real-time fraud detection
-Real-time fraud alerts
-Explainable AI
-Advanced anomaly detection
-AWS cloud integration
-Real-time transaction monitoring
-⚠️ Disclaimer
-
-This project is developed for educational and demonstration purposes. Fraud predictions should not be treated as definitive proof of fraudulent activity.
 
 👨‍💻 Author
 
 Sai Likhith
 
 B.Tech – Computer Science & Engineering (IoT)
-
-🔗 GitHub

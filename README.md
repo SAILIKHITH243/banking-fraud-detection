@@ -121,6 +121,14 @@ Cloud Deployment
 
 The application is deployed using Streamlit Community Cloud.
 
+## 📈 Model Performance
+
+- **Accuracy:** 95.15%
+- **Precision:** 82.28%
+- **Recall:** 78.00%
+- **F1 Score:** 80.08%
+- **ROC-AUC:** 0.9768
+
 🔗 Live Banking Fraud Detection Dashboard
 
 👨‍💻 Author

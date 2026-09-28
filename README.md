@@ -4,7 +4,7 @@ A Machine Learning based banking transaction fraud detection and risk analytics 
 
 ## 🚀 Live Demo
 
-https://sailikhith243-banking-fraud-detection-app-d1jbpa.streamlit.app/
+[Open Live Application](https://sailikhith243-banking-fraud-detection-app-d1jbpa.streamlit.app/)
 
 ## 📌 Project Overview
 
@@ -27,10 +27,10 @@ The dataset contains **10,000 banking transactions** with 20 transaction-related
 
 ### Dataset Summary
 
-- Total Transactions: 10,000
-- Fraud Transactions: 1,251
-- Genuine Transactions: 8,749
-- Fraud Percentage: 12.51%
+- **Total Transactions:** 10,000
+- **Fraud Transactions:** 1,251
+- **Genuine Transactions:** 8,749
+- **Fraud Percentage:** 12.51%
 
 ### Important Features
 
@@ -51,7 +51,7 @@ The dataset contains **10,000 banking transactions** with 20 transaction-related
 
 ## 🤖 Machine Learning
 
-The project uses a Machine Learning classification approach to identify fraudulent transactions.
+The project uses a Machine Learning classification approach to identify potentially fraudulent transactions.
 
 ### Model
 
@@ -61,23 +61,28 @@ The project uses a Machine Learning classification approach to identify fraudule
 - Fraud classification
 - Risk scoring
 
-## 📈 Dashboard Features
+## 📊 Dashboard Features
 
 The Streamlit dashboard contains:
 
 ### 1. Dashboard
+
 Provides an overview of total transactions, fraud transactions and genuine transactions.
 
 ### 2. Transaction Analysis
-Analyzes transaction amounts, channels and transaction behavior.
+
+Analyzes transaction amounts, payment channels and transaction behavior.
 
 ### 3. Fraud Analysis
+
 Explores fraud patterns and important fraud-related features.
 
 ### 4. Risk Analysis
+
 Displays transaction risk scores and risk-level distributions.
 
 ### 5. Dataset
+
 Provides an interactive view of the transaction dataset.
 
 ## 🛠️ Technologies Used
@@ -93,10 +98,34 @@ Provides an interactive view of the transaction dataset.
 - Git
 - GitHub
 
+## 🔄 Project Workflow
 
+```text
+Banking Transaction Dataset
+          ↓
+Data Preprocessing
+          ↓
+Exploratory Data Analysis
+          ↓
+Machine Learning
+          ↓
+Fraud Prediction
+          ↓
+Risk Scoring
+          ↓
+Streamlit Dashboard
+          ↓
+Cloud Deployment
+🌐 Deployment
+
+The application is deployed using Streamlit Community Cloud.
+
+🔗 Live Banking Fraud Detection Dashboard
 
 👨‍💻 Author
 
 Sai Likhith
 
 B.Tech – Computer Science & Engineering (IoT)
+
+🔗 GitHub Profile

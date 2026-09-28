@@ -106,6 +106,21 @@ Provides an interactive view of the transaction dataset.
 - **F1 Score:** 80.08%
 - **ROC-AUC:** 0.9768
 
+🌐 Deployment
+
+The application is deployed using Streamlit Community Cloud.
+
+
+🔗 Live Banking Fraud Detection Dashboard
+
+👨‍💻 Author
+
+Sai Likhith
+
+B.Tech – Computer Science & Engineering (IoT)
+
+🔗 GitHub Profile
+
 ## 🔄 Project Workflow
 
 ```text
@@ -125,17 +140,3 @@ Streamlit Dashboard
           ↓
 Cloud Deployment
 
-🌐 Deployment
-
-The application is deployed using Streamlit Community Cloud.
-
-
-🔗 Live Banking Fraud Detection Dashboard
-
-👨‍💻 Author
-
-Sai Likhith
-
-B.Tech – Computer Science & Engineering (IoT)
-
-🔗 GitHub Profile

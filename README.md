@@ -1,141 +1,145 @@
-# 🏦 Banking Fraud Detection & Risk Analytics
+# Banking Fraud Detection & Risk Analytics
 
-A Machine Learning based banking transaction fraud detection and risk analytics dashboard built using Python, Scikit-learn and Streamlit.
+A machine-learning based platform for detecting suspicious banking transactions, analyzing risk signals, and supporting transaction review decisions.
 
-## 🚀 Live Demo
+## Project Overview
 
-[Open Live Application](https://sailikhith243-banking-fraud-detection-app-d1jbpa.streamlit.app/)
+Financial institutions process a large number of transactions every day. Identifying potentially fraudulent transactions requires analyzing transaction behavior, customer activity, device information, authentication methods, and security-related signals.
 
-## 📌 Project Overview
+This project combines machine learning with transaction risk analysis to identify suspicious transactions and support investigation decisions.
 
-This project analyzes banking transactions and identifies potentially fraudulent transactions using Machine Learning.
+The system provides:
 
-The system also assigns risk scores to transactions and provides an interactive Streamlit dashboard for analyzing fraud patterns, transaction behavior and risk levels.
+- Fraud detection using multiple machine learning models
+- Transaction-level fraud probability
+- Behavioral and security risk analysis
+- Risk scoring and risk classification
+- Recommended actions for suspicious transactions
+- Fraud and risk analytics dashboards
+- Transaction investigation
+- Model performance comparison
+- High-risk transaction monitoring
 
-## 🎯 Objectives
+## Problem Statement
 
-- Detect potentially fraudulent banking transactions
-- Analyze transaction behavior and fraud patterns
-- Calculate transaction risk scores
-- Visualize important transaction features
-- Provide an interactive fraud analytics dashboard
-- Deploy the application publicly using Streamlit Community Cloud
+The objective of this project is to answer:
 
-## 📊 Dataset
+> Is this transaction normal, suspicious, or likely fraudulent, and what action should be taken?
 
-The dataset contains **10,000 banking transactions** with 20 transaction-related features.
+The system analyzes transaction and behavioral signals to estimate fraud probability and determine the level of risk associated with a transaction.
 
-### Dataset Summary
+## Project Architecture
 
-- **Total Transactions:** 10,000
-- **Fraud Transactions:** 1,251
-- **Genuine Transactions:** 8,749
-- **Fraud Percentage:** 12.51%
+```text
+Banking Transaction
+        |
+        v
+Transaction & Behavioral Features
+        |
+        v
+Machine Learning Models
+        |
+        v
+Fraud Probability
+        |
+        v
+Risk Scoring
+        |
+        v
+Risk Level
+        |
+        v
+Recommended Action
+        |
+        v
+Transaction Investigation / Monitoring
+## Key Features
 
-### Important Features
+### 1. Executive Dashboard
 
-- Transaction Amount
-- Login Attempts
-- Device Risk Score
-- Transfer Frequency
-- Anomaly Score
-- Account Age
-- Failed Transactions
-- Average Monthly Balance
-- Transaction Velocity
-- Geographic Distance
-- Payment Channel
-- Authentication Type
-- International Transaction Flag
-- Suspicious IP Flag
+Provides an overall view of transaction activity and fraud risk.
 
-## 🤖 Machine Learning
+Key metrics include:
 
-The project uses a Machine Learning classification approach to identify potentially fraudulent transactions.
+- Total Transactions
+- Fraud Detected
+- Fraud Rate
+- High / Critical Risk Transactions
 
-### Model
+The dashboard also provides visual analysis of:
 
-- Random Forest Classifier
-- Feature preprocessing
-- Train/Test evaluation
-- Fraud classification
-- Risk scoring
+- Transaction and fraud trends
+- Risk distribution
+- Fraud rate by payment channel
 
-## 📊 Dashboard Features
+### 2. Transaction Investigation
 
-The Streamlit dashboard contains:
+Allows individual transactions to be investigated.
 
-### 1. Dashboard
+For a selected transaction, the system displays:
 
-Provides an overview of total transactions, fraud transactions and genuine transactions.
+- Fraud probability
+- Risk score
+- Risk level
+- Recommended action
+- Transaction details
+- Behavioral signals
+- Security signals
+- Dataset fraud label
 
-### 2. Transaction Analysis
-
-Analyzes transaction amounts, payment channels and transaction behavior.
+This module helps understand why a transaction may require additional review.
 
 ### 3. Fraud Analysis
 
-Explores fraud patterns and important fraud-related features.
+Provides fraud analysis across different transaction characteristics.
 
-### 4. Risk Analysis
+The analysis includes:
 
-Displays transaction risk scores and risk-level distributions.
+- Merchant category
+- Device type
+- Authentication type
+- Customer segment
+- Transaction amount
 
-### 5. Dataset
+### 4. Risk Intelligence
 
-Provides an interactive view of the transaction dataset.
+The system classifies transactions into four risk levels:
 
-## 🛠️ Technologies Used
+- LOW
+- MEDIUM
+- HIGH
+- CRITICAL
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Joblib
-- Streamlit
-- Git
-- GitHub
+High and critical risk transactions are highlighted for further investigation.
 
-## 📈 Model Performance
+### 5. Model Lab
 
-- **Accuracy:** 95.15%
-- **Precision:** 82.28%
-- **Recall:** 78.00%
-- **F1 Score:** 80.08%
-- **ROC-AUC:** 0.9768
+Multiple machine learning models are evaluated and compared:
 
-## 🔄 Project Workflow
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+- XGBoost
+- Isolation Forest
 
-```text
-Banking Transaction Dataset
-          ↓
-Data Preprocessing
-          ↓
-Exploratory Data Analysis
-          ↓
-Machine Learning
-          ↓
-Fraud Prediction
-          ↓
-Risk Scoring
-          ↓
-Streamlit Dashboard
-          ↓
-Cloud Deployment
+Evaluation metrics include:
 
-🌐 Deployment
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
 
-The application is deployed using Streamlit Community Cloud.
+### 6. Fraud Monitoring
 
+The monitoring module provides a transaction review queue based on recent transactions.
 
-🔗 Live Banking Fraud Detection Dashboard
+Users can filter transactions by:
 
-👨‍💻 Author
+- LOW
+- MEDIUM
+- HIGH
+- CRITICAL
 
-Sai Likhith
-
-B.Tech – Computer Science & Engineering (IoT)
-
-🔗 GitHub Profile
+The module highlights transactions that may require manual review.
